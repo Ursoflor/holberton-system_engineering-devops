@@ -1,7 +1,8 @@
 #!/usr/bin/env bash\
 #repeating best school using while
 n=1
-while [ $n -le 10 ]
+while [[ $n -le 10 ]]
 do
-echo "Best School"
+printf "Best School \n"
+((--n))
 done
