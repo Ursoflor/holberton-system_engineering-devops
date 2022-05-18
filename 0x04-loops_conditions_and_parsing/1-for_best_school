@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #this repeats the phrase 10 times
 for i in  {0..10}
-do echo "Best School"
+do 
+	echo "Best School"
 done
