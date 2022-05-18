@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #hi on new line
-n=0
-while [ $n -le 9 ]
+x=0
+while [ $x -le 9 ]
 do
         echo "Best School"
-	if [ $n == 8 ]
+	if [ $x == 8 ]
 	then
 		printf "%s\n" "Hi"
 	fi
-	((n++))
+	((x++))
 done
