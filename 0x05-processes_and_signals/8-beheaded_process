@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#kill without using sigterm
+pkill -f '7-highlander' -INT
